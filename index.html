@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        body{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin:20px;
+            background-color:lightcoral;
+
+        }
+        h2{
+            text-align: center;
+        }
+        .gallery{
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            gap:10px;
+            background-color:darkcyan;
+
+        }
+        .item{
+            text-align:center;
+
+        }
+        .gallery img{
+            width:200px;
+            height:200px;
+            margin-top:10px;
+            transition: transform 2s;
+
+        }
+        .gallery img:hover{
+            transform:scale(1.5);
+        }
+        .caption{
+            margin-top:10px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>DOGS</h2>
+    <div class="gallery">
+        <div class="item">
+            <img src="pug.jfif">
+            <p class="caption">PUG</p>
+        </div>
+        <div class="item">
+            <img src="goldenretriver.jfif">
+            <p class="caption">GOLDEN RETRIVER</p>
+        </div>
+         <div class="item">
+            <img src="german sheped.jfif">
+            <p class="caption">GERMAN SHPED</p>
+        </div>
+         <div class="item">
+            <img src="dog.jpg">
+            <p class="caption">DOG</p>
+        </div>
+         <div class="item">
+            <img src="dog2.jfif">
+            <p class="caption">DOG2</p>
+        </div>
+         <div class="item">
+            <img src="husky.jfif">
+            <p class="caption">HUSKY</p>
+        </div>
+    </div>
+
+</body>
