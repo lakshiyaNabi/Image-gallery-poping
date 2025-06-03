@@ -36,6 +36,16 @@
             margin-top:10px;
             font-weight: bold;
         }
+        @media(max-width:786px){
+            .gallery{
+                grid-template-columns: repeat(2,1fr);/*2 columns for table*/
+            }
+        }
+        @media(max-width:480px){
+            .gallery{
+                grid-template-columns: 1fr;/*1 columns for mobile*/
+            }
+        }
     </style>
 
 </head>
